@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/profile.jpg" alt="Profile picture of [Your Name]">
+        <p>Hello! My name is [Your Name], and I am a web developer passionate about creating accessible websites.</p>
+    </section>  
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Coming soon...</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <small class="error-message" id="nameError"></small>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <small class="error-message" id="emailError"></small>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your message"></textarea>
+            <small class="error-message" id="messageError"></small>
+    
+            <button type="submit">Send Message</button>
+            <p id="successMessage" style="display:none; color:green;">Message sent successfully!</p>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
