@@ -201,3 +201,22 @@ button:hover {
     -moz-transition: background-color 0.3s ease-in-out;
     -o-transition: background-color 0.3s ease-in-out;
 }
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #3498db;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #2980b9;
+}
