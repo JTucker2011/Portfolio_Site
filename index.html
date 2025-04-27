@@ -5,23 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-        <meta name="author" content="Your Name">
-        <meta name="description" content="Portfolio website of Your Name - showcasing web development projects, coding skills, and resume.">
-        <meta name="keywords" content="web developer, portfolio, front-end, HTML, CSS, JavaScript, GitHub Pages">
-        <meta property="og:title" content="Your Name - Portfolio">
-        <meta property="og:description" content="Check out my web development projects, skills, and resume.">
-        <meta property="og:image" content="https://yourgithubusername.github.io/repository-name/images/profile.jpg">
-        <meta property="og:url" content="https://yourgithubusername.github.io/repository-name/">
-        <title>Your Name - Portfolio</title>
-        <head>
 </head>
 <body>
     <!-- Navigation -->
     <header>
         <h1>My Portfolio</h1>
-        <nav aria-label="Main Navigation">
+        <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -30,20 +20,41 @@
         <button id="theme-toggle">🌙 Toggle Dark Mode</button>
     </header>
 
-    <section id="about">
+    <!-- About Me Section -->
+    <section id="about" class="fade-in">
         <h2>About Me</h2>
-        <img src="images/profile.jpg" alt="Profile picture of [Your Name]">
-        <p>Hello! My name is [Your Name], and I am a web developer passionate about creating accessible websites.</p>
-    </section>  
+        <img src="images/profile.jpg" alt="My Profile Picture">
+        <p>Hello! My name is [Your Name], and I am a web developer passionate about building creative and functional websites.</p>
+    </section>
 
     <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Coming soon...</p>
+    <section id="projects" class="fade-in">
+        <h2>My Projects</h2>
+        
+        <div id="filter-buttons">
+            <button onclick="filterProjects('all')">All</button>
+            <button onclick="filterProjects('web')">Web Development</button>
+            <button onclick="filterProjects('python')">Python Projects</button>
+        </div>
+    
+        <div class="project" data-category="web">
+            <h3>Portfolio Website</h3>
+            <p>A website showcasing my resume, projects, and skills.</p>
+        </div>
+    
+        <div class="project" data-category="python">
+            <h3>Data Analysis Script</h3>
+            <p>A Python script that processes and visualizes data.</p>
+        </div>
+    
+        <div class="project" data-category="web">
+            <h3>To-Do List App</h3>
+            <p>A simple JavaScript to-do list application.</p>
+        </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="fade-in">
         <h2>Contact Me</h2>
         <form id="contactForm">
             <label for="name">Name:</label>
@@ -61,6 +72,11 @@
             <button type="submit">Send Message</button>
             <p id="successMessage" style="display:none; color:green;">Message sent successfully!</p>
         </form>
+    </section>
+            <li><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/yourgithub" target="_blank">GitHub</a></li>
+            <li><a href="resume.pdf" download>Download My Resume</a></li>
+        </ul>
     </section>
 
     <script src="script.js"></script>
