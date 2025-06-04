@@ -1,7 +1,7 @@
 # Portfolio Website  
 
 ## 🌐 Live Website  
-[View My Portfolio](https://yourgithubusername.github.io/repository-name/)  
+[View My Portfolio](https://jtucker2011.github.io/Portfolio_Site)  
 
 ## 📌 Project Overview  
 This is my personal portfolio website showcasing my projects, skills, and contact information.  
@@ -15,5 +15,5 @@ This is my personal portfolio website showcasing my projects, skills, and contac
 ## 📞 Contact Me  
 Feel free to connect with me:  
 - 📧 Email: your.email@example.com  
-- 🔗 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)  
-- 🖥️ GitHub: [Your GitHub](https://github.com/yourgithubusername)  
+- 🔗 LinkedIn: [Your LinkedIn](https://linkedin.com/in/javaristucker2011)  
+- 🖥️ GitHub: [Your GitHub](https://github.com/JTucker2011)  
