@@ -14,6 +14,6 @@ This is my personal portfolio website showcasing my projects, skills, and contac
 
 ## 📞 Contact Me  
 Feel free to connect with me:  
-- 📧 Email: your.email@example.com  
+- 📧 Email: JavarisTucker@gmail.com  
 - 🔗 LinkedIn: [Your LinkedIn](https://linkedin.com/in/javaristucker2011)  
 - 🖥️ GitHub: [Your GitHub](https://github.com/JTucker2011)  
